@@ -27,11 +27,20 @@ return $("submit")
 
 }
 
+
+get textInfo(){
+
+
+
+    return $("p")
+}
+
 Login(userName,password){
 
 this.userName.setValue(userName)
 this.password.setValue(password)
 this.signIn.click();
+
 }
 
 
